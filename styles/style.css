@@ -1,8 +1,123 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 
-*/
+nav img{
+    height:40px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header section{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header section div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+body>section:last-child{
+    backgrond-color:
+}
+
+header section div h1{
+    font-size:60px;
+}
+
+header section img{
+    max-width: 100%;
+}
+
+section>h2:first-child{
+    text-align: center;
+    text-decoration: underline grey;
+    font-size: 30px;
+    text-underline-offset: 7px;
+}
+
+article img{
+    width: 70px;
+}
+
+#whatsOn{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#whatsOn article{
+    width : 30%;
+    text-align: center;
+}
+
+article h3{
+    color:grey;
+}
+
+#whatsOn article p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#yeezie{
+    background-color: #00B172;  
+    position:relative;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+}
+
+#yeezie > img:first-child{
+    position:absolute;
+    width:80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#yeezie > img:last-child{
+    width:25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:10%;
+}
+
+#yeezie>div{
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    margin-left:10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#yeezie>div>h2{
+    text-decoration: underline white;
+    font-size: 25px;
+    text-underline-offset: 7px;
+}
+
+#yeezie>div>p{
+    width: 60%;
+}
